@@ -1,0 +1,201 @@
+   
+   body, html {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('../img/product3.png');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100%;
+}
+   
+   /* Styling for the masthead */
+   .masthead {
+    background-color: #FFC0CB;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+   }
+   
+   /* Styling for forms */
+   .form-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+   }
+   
+   /* Styling for buttons */
+   .btn {
+    background-color: #333 ;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   }
+   
+   .btn:hover {
+    background-color:#FFC0CB ;
+   }
+   
+   /* Responsive styling */
+   @media screen and (max-width: 768px) {
+    .form-row {
+       flex-direction: column;
+    }
+   }
+ 
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    color: white;
+    font-size: 24px;
+    height: 30px;
+}
+#logo img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-right: 20px; /* Adjust the right margin as needed */
+}
+
+    
+#login-form {
+    display: inline;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    margin: 0 5px 0 0;
+    padding: 5px;
+}
+
+#login-form input[type="submit"] {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#navigation ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+
+.about-body {
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.para-container {
+    margin: 20px 0;
+    text-align: left;
+    position: relative;
+}
+
+.para-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 10px;
+}
+.aroma {
+    background-color: #333;
+    color:white;
+}
+/* Example CSS in style.css */
+.body-container img {
+    display: block; /* Show product3.png in the body */
+}
+
+footer img {
+    display: block; /* Show product1.png in the footer */
+}
